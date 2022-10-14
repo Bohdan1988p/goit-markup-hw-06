@@ -582,6 +582,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+outline: none;
 }
 .btn-follow {
 padding: 10px 24px;
@@ -808,6 +809,7 @@ margin-top: 4px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+outline: none;
 }
 .modal-input:hover,.modal-input:focus{
 border: 1px solid var(--akcent);
@@ -822,6 +824,7 @@ border: 1px solid var(--akcent);
 .modal-input:hover + .modal-form-icon{
   fill: var(--akcent);
 }
+
 .modal-input:focus + .modal-form-icon{
   fill: var(--akcent);
 }
@@ -841,6 +844,7 @@ padding: 12px 16px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+outline: none;
 }
 .modal-coments-input:hover,.modal-coments-input:focus {
   border: 1px solid var(--akcent);
